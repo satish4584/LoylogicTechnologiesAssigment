@@ -7,4 +7,3 @@ sudo yum install -y docker
 sudo systemctl start docker
 sudo systemctl enable docker
 sudo yum install python python-devel python-pip -y
-sudo yum install -y boto
