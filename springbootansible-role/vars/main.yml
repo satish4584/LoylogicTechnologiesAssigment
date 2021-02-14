@@ -1,0 +1,5 @@
+---
+container_name: springbootapp
+image_name: stripathiopstree/springbootappimage:v1.0
+container_state: present
+hostcon_port: {{ host_port }}:{{ container_port }}

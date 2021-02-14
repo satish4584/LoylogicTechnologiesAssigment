@@ -1,0 +1,10 @@
+---
+- hosts:
+  tasks:
+    - name: SpringBoot App
+      community.general.docker_container:
+        name: "{{ container_name }}"
+        image: "{{ image_name }}"
+        state: "{{ container_state }}"
+        ports:
+          - "{{ hostcon_port }}"
